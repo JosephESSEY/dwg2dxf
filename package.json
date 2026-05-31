@@ -1,7 +1,7 @@
 {
   "name": "dwg2dxf-converter",
-  "version": "1.0.1",
-  "description": "Convert DWG files to DXF using Node.js, 100% standalone via WebAssembly and GNU LibreDWG.",
+  "version": "1.0.2",
+  "description": "DWG to DXF converter — 100% standalone, no dependencies, powered by LibreDWG WebAssembly",
   "main": "index.js",
   "types": "index.d.ts",
   "engines": {
@@ -21,12 +21,24 @@
   "keywords": [
     "dwg",
     "dxf",
+    "dwg-to-dxf",
+    "dwg2dxf",
     "autocad",
+    "autocad-converter",
     "libredwg",
     "cad",
+    "cad-converter",
     "conversion",
     "wasm",
-    "webassembly"
+    "webassembly",
+    "dwg-parser",
+    "dxf-converter",
+    "cad-file-converter",
+    "dwg-reader",
+    "autocad-dwg",
+    "r14",
+    "surveying",
+    "gis"
   ],
   "author": "JosephESSEY",
   "license": "MIT",

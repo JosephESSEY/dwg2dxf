@@ -3,13 +3,27 @@
 ![NPM Version](https://img.shields.io/npm/v/dwg2dxf-converter)
 ![License](https://img.shields.io/npm/l/dwg2dxf-converter)
 ![Node Version](https://img.shields.io/node/v/dwg2dxf-converter)
+![NPM Downloads](https://img.shields.io/npm/dm/dwg2dxf-converter)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 ## Description
 
-`dwg2dxf-converter` is a professional Node.js package designed to convert CAD files from `.dwg` format to `.dxf` format (compatible with AutoCAD 2000/2004 and higher).
+`dwg2dxf-converter` is a highly optimized, professional **libredwg nodejs wrapper** designed to easily **convert dwg file nodejs** applications process. It allows you to convert CAD drawings from `.dwg` format to `.dxf` format (compatible with AutoCAD 2000/2004 and higher).
+
+If you are looking for an **open source dwg converter** to convert **dwg to dxf without autocad** or other heavy native software on your server, this package is the ultimate production-grade solution.
 
 Built for rigorous production environments, this package is **100% standalone**. It requires no external system dependencies (no need to install LibreDWG, Python, or C++ compilers on the target server). The GNU LibreDWG conversion engine is pre-compiled to **WebAssembly (Wasm)**, making it universally compatible (Windows, macOS, Linux) and blazing fast.
+
+## Why dwg2dxf-converter?
+
+| Feature | dwg2dxf-converter | Other solutions |
+|---|---|---|
+| Zero system dependencies | ✅ | ❌ Requires LibreDWG install |
+| Works on Windows/Mac/Linux | ✅ | ⚠️ Often Linux only |
+| Powered by WebAssembly | ✅ | ❌ |
+| All DWG versions (R12→2018+) | ✅ | ⚠️ Partial |
+| Open-source (MIT) | ✅ | ⚠️ Often GPL only |
+| TypeScript support | ✅ | ❌ |
 
 ## Installation
 
