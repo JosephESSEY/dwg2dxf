@@ -106,12 +106,17 @@ The underlying LibreDWG engine can read a vast range of historical DWG versions:
 
 To re-compile the Wasm module from the LibreDWG C sources:
 
-1. Make sure you have **Emscripten** (`emcc`) installed and added to your `PATH`.
-2. On Linux / macOS, run:
+1. Make sure you have **Emscripten** (`emcc` / `emsdk`) and **CMake** installed and added to your `PATH`.
+2. **On Linux / macOS (Bash):** Run the build script:
    ```bash
-   npm run build
+   chmod +x ./scripts/build-wasm.sh
+   ./scripts/build-wasm.sh
    ```
-3. **On Windows:** LibreDWG relies on `autotools` which are not native to PowerShell. Use Git Bash, MSYS2, or WSL, and execute the bash script `./scripts/build-wasm.sh`.
+3. **On Windows (PowerShell):** Make sure to run `emsdk_env.ps1` in your session first, then execute:
+   ```powershell
+   .\scripts\build-wasm.ps1
+   ```
+   *(No MSYS2 or WSL is required, as the build compiles natively using CMake and MinGW).*
 
 ## License
 
