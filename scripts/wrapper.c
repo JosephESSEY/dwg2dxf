@@ -1,4 +1,6 @@
 #include <dwg.h>
+#include <bits.h>
+#include <out_dxf.h>
 #include <stdio.h>
 #include <string.h>
 
