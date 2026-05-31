@@ -1,10 +1,23 @@
 # dwg2dxf-converter
 
-![NPM Version](https://img.shields.io/npm/v/dwg2dxf-converter)
-![License](https://img.shields.io/npm/l/dwg2dxf-converter)
-![Node Version](https://img.shields.io/node/v/dwg2dxf-converter)
-![NPM Downloads](https://img.shields.io/npm/dm/dwg2dxf-converter)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+<p align="center">
+  <img src="logo/dwg2dxf_converter_logo.svg" alt="dwg2dxf-converter logo" width="180" />
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/dwg2dxf-converter">
+    <img src="https://img.shields.io/npm/v/dwg2dxf-converter" alt="NPM Version" />
+  </a>
+  <a href="https://www.npmjs.com/package/dwg2dxf-converter">
+    <img src="https://img.shields.io/npm/dm/dwg2dxf-converter" alt="NPM Downloads" />
+  </a>
+  <a href="https://img.shields.io/npm/l/dwg2dxf-converter">
+    <img src="https://img.shields.io/npm/l/dwg2dxf-converter" alt="License" />
+  </a>
+  <a href="https://nodejs.org/">
+    <img src="https://img.shields.io/node/v/dwg2dxf-converter" alt="Node Version" />
+  </a>
+</p>
 
 ## Description
 
