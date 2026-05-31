@@ -1,7 +1,7 @@
 {
-  "name": "dwg2dxf",
-  "version": "1.0.0",
-  "description": "Convertit des fichiers DWG en DXF avec Node.js, 100% autonome en WebAssembly via GNU LibreDWG.",
+  "name": "dwg2dxf-converter",
+  "version": "1.0.1",
+  "description": "Convert DWG files to DXF using Node.js, 100% standalone via WebAssembly and GNU LibreDWG.",
   "main": "index.js",
   "engines": {
     "node": ">=18"

@@ -1,13 +1,13 @@
-# dwg2dxf
+# dwg2dxf-converter
 
-![NPM Version](https://img.shields.io/npm/v/dwg2dxf)
-![License](https://img.shields.io/npm/l/dwg2dxf)
-![Node Version](https://img.shields.io/node/v/dwg2dxf)
+![NPM Version](https://img.shields.io/npm/v/dwg2dxf-converter)
+![License](https://img.shields.io/npm/l/dwg2dxf-converter)
+![Node Version](https://img.shields.io/node/v/dwg2dxf-converter)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 ## Description
 
-`dwg2dxf` is a professional Node.js package designed to convert CAD files from `.dwg` format to `.dxf` format (compatible with AutoCAD 2000/2004 and higher).
+`dwg2dxf-converter` is a professional Node.js package designed to convert CAD files from `.dwg` format to `.dxf` format (compatible with AutoCAD 2000/2004 and higher).
 
 Built for rigorous production environments, this package is **100% standalone**. It requires no external system dependencies (no need to install LibreDWG, Python, or C++ compilers on the target server). The GNU LibreDWG conversion engine is pre-compiled to **WebAssembly (Wasm)**, making it universally compatible (Windows, macOS, Linux) and blazing fast.
 
@@ -16,7 +16,7 @@ Built for rigorous production environments, this package is **100% standalone**.
 Simply install via npm (no native configuration required):
 
 ```bash
-npm install dwg2dxf
+npm install dwg2dxf-converter
 ```
 
 ## Quick Start
@@ -24,7 +24,7 @@ npm install dwg2dxf
 Here is a minimal example to convert a file in 5 lines of code:
 
 ```javascript
-const { convertDwgToDxf } = require('dwg2dxf');
+const { convertDwgToDxf } = require('dwg2dxf-converter');
 
 (async () => {
     const result = await convertDwgToDxf('./plan.dwg', './plan.dxf');
@@ -37,7 +37,7 @@ const { convertDwgToDxf } = require('dwg2dxf');
 For complete handling in an asynchronous environment (e.g., a backend API):
 
 ```javascript
-const { convertDwgToDxf, checkWasm } = require('dwg2dxf');
+const { convertDwgToDxf, checkWasm } = require('dwg2dxf-converter');
 
 async function processFile(inputPath, outputPath) {
     // 1. Check engine availability
