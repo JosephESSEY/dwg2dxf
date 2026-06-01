@@ -1,6 +1,6 @@
 {
   "name": "dwg2dxf-converter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "DWG to DXF converter — 100% standalone, no dependencies, powered by LibreDWG WebAssembly",
   "main": "index.js",
   "types": "index.d.ts",
