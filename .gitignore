@@ -6,6 +6,4 @@ libredwg/
 *.a
 *.bc
 .DS_Store
-*.sh
-*.ps1
 test/output/
